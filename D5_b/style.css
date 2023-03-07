@@ -1,0 +1,22 @@
+main {
+    width: 809px;
+    height: 809px;
+    margin: auto;
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+main div {
+    border: 0px solid black;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+
+main div:nth-child(even) {
+    background-color: black;
+}
