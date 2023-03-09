@@ -99,7 +99,6 @@ div:hover {
     scale: 1.2;
     border-radius: 5px;
     z-index: 1;
-    transition: 0.5s;
 }
 
 /* Ombra e angoli della scacchiera arrotondati */
